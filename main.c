@@ -358,7 +358,7 @@ void palabrasMasRelevantes(TreeMap *arbolLibros){
   
   getchar();
 
-  printf("Ingrese el título del libro: ");
+  printf("Ingrese el ID del libro: ");
   char tituloBusqueda[256];
   leerCadena101(tituloBusqueda);
 
@@ -579,7 +579,7 @@ int main() {
       palabrasConMayorFrecuencia(arbolLibroID);
       break;
     case 5:
-      palabrasMasRelevantes(arbolLibro);
+      palabrasMasRelevantes(arbolLibroID);
       break;
     case 6:
       buscarXpalabra(arbolLibro);

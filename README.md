@@ -1,6 +1,12 @@
 **Descripción:**
   - En esta tarea, debemos desarrollar una aplicación capaz de indexar libros del proyecto Gutenberg. La aplicación debe permitir cargar documentos de texto, mostrar libros ordenados, realizar búsquedas por título, encontrar las palabras más frecuentes y relevantes, buscar libros por palabra y mostrar apariciones de palabras dentro del contexto de un libro específico, por lo tanto, el objetivo final es crear una herramienta eficaz para la gestión y exploración de una colección de libros digitales.
 
+**Compilar y ejecutar:**
+https://github.com/JOAQUINCASTRO/Tarea-3
+cd gestor-de-tareas
+gcc main.c funciones_tareas.c -o gestor
+./gestor
+
 -----------------------------------------------------------------   
 **Funcionalidades:**
 
@@ -11,7 +17,7 @@
       
       - "MostrarDocOrdenados" Esta funcion se encarga de mostrar por pantalla todos los documentos ordenados por titulos, tambien muestra por pantalla las id´s de los documentos asi como tambien la cantidad de palabras que contienen cada documentos y la cantidad de caracteres que tienen los documentos.
       
-      - "buscarLibroXtitulo": Esta funcion se encarga de mostrar por pantalla todos los titulos de los libros que contengan la palabra que el usuario ingreso. 
+      - "buscarLibroXtitulo": Esta funcion se encarga de mostrar por pantalla todos los titulos de los libros que contengan la palabra que el usuario ingreso. Se debe ingresar la palabra en minuscula sin tilde.
       
       - "palabrasConMayorFrecuencia": Esta funcion se encarga de mostrar las 10 primeras palabras que mas se repitan en un libro, el cual depende del titulo que ingreso el usuario, tambien se muestra por pantalla la cantidad de veces que se repiten cada palabra.
       
@@ -24,6 +30,8 @@
   **Detalles:**
       -En la funcion 7 no logramos que se mostrara por pantalla el contexto de la palabra buscada.Lo dejamos como comentada la funcion para no generar problemas.
       -En la funcion 1 no creamos una condicion para que el usuario ingrese solo un texto, en cambio cargamos todo el contenido.
+      -En la funcion 5 no pudimos buscarlo por el titulo, asi que lo buscamos por el ID para que asi pueda ejecutarse la funcion.
+      
 ------------------------------------------------------------------
 **Aportes:** 
 

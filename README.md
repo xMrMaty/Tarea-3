@@ -22,9 +22,8 @@
       -"mostrarPalabraContexto": Esta funcion se encarga de mostrar por pantalla el contexto de una palabra buscada, es decir, el usuario ingresa un titulo y una palabra a buscar y la funcion muestra por pantalla las 5 anteriores y 5 siguientes palabras de la palabra ingresada por el usuario, cada vez que se encuentre la palabra en el documento.
       
   **Detalles:**
-      -En la funcion 7 no logramos que se mostrara por pantalla el contexto de la palabra buscada.
+      -En la funcion 7 no logramos que se mostrara por pantalla el contexto de la palabra buscada.Lo dejamos como comentada la funcion para no generar problemas.
       -En la funcion 1 no creamos una condicion para que el usuario ingrese solo un texto, en cambio cargamos todo el contenido.
-      -
 ------------------------------------------------------------------
 **Aportes:** 
 
